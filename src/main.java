@@ -4,7 +4,9 @@ import java.io.*;
 import java.util.*;
 
 public class main {
-
+	/**
+	 * Main class
+	 */
 	public static final int DICTIONARY_SIZE = 8, WORDHASH_SIZE = 10, NUM_ITERATIONS = 10, COMPARE_ARRAYS = 100, MAX_CYCLE_SIZE = 3;
 	public Word[] dictionary;
 	public ArrayList<HashMap<Word, Integer>> bestWordsFromCycles;
